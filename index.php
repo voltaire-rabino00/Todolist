@@ -18,7 +18,7 @@
 
         <div class="field input">
           <label for="password">Password</label>
-          <input type="password" name="password" id="password" required>
+          <input type="password " name="password" id="password" required>
         </div>
 
         <div class="field">

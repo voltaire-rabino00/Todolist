@@ -3,29 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HOme</title>
   <link rel="stylesheet" href="style.css">
+  <title>Chatbot Example</title>
 </head>
 <body>
-  <div class="nav">
-    <div class="logo">
-      <p>Logo</p>
-    </div>
-
-    <div class="right-links">
-      <a href="#">Change Profile</a>
-      <a href="logout.php"><button class="btn">Logout</button></a>
-    </div>
-  </div>
-
-  <main>
-    <div class="main-box-top">
-      <div class="top">
-        <div class="box">
-          <p>Hello </p>
-        </div>
+  <div class="chat-container">
+    <div class="chat-log" id="chatLog">
+      <div class="chat-message bot-message">
+        <p>Hello! I'm your chatbot.</p>
       </div>
     </div>
-  </main>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type a message...">
+      <button id="sendButton">Send</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
