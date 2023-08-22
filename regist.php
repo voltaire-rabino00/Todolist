@@ -1,5 +1,7 @@
 <?php
   include("config.php");
+  session_start(); // Start the session
+
 
   if(isset($_POST['submit'])){
     $name = $_POST['name'];
@@ -22,9 +24,10 @@
         VALUES('$name', '$email', '$hash')";
         $result = mysqli_query($conn, $result);
         
-        if($result){
-          header("location: home.php");
-        }
+        if ($result) {
+          $_SESSION['registration_success'] = true;
+          header("location: index.php");
+      }
       }
       else{
         echo '<script>
