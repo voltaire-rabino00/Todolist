@@ -1,3 +1,7 @@
+<?php
+  include("config.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,10 +14,10 @@
   <div class="container">
     <div class="box form-box">
       <header>Signup</header>
-      <form action="" method="POST">
+      <form action="regist.php" method="POST">
         <div class="field input">
-          <label for="username">Username</label>
-          <input type="text" name="username" id="username" autocomplete="off" required>
+          <label for="username">Userame</label>
+          <input type="text" name="name" id="name" autocomplete="off" required placeholder="John Doe">
         </div>
 
         <div class="field input">
@@ -22,17 +26,17 @@
         </div>
 
         <div class="field input">
-          <label for="age">Age</label>
-          <input type="text" name="age" id="age" autocomplete="off" required>
-        </div>
-
-        <div class="field input">
           <label for="username">Password</label>
           <input type="password" name="password" id="password" autocomplete="off" required>
         </div>
 
+        <div class="field input">
+          <label for="username"> Confirm Password</label>
+          <input type="password" name="cpassword" id="cpassword" autocomplete="off" required>
+        </div>
+
         <div class="field">
-          <input type="submit" class="btn" name="submit" value="Login" required>
+          <input type="submit" class="btn" name="submit" value="Register" required>
         </div>
         <div class="links">
           Already have an account? <a href="index.php">Login</a>
