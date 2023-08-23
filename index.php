@@ -1,3 +1,34 @@
+<?php
+include("config.php");
+session_start(); // Start the session
+
+if (isset($_POST['submit'])) {
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    $sql = "SELECT * FROM register WHERE email='$email'";
+    $result = mysqli_query($conn, $sql);
+    $count = mysqli_num_rows($result);
+
+    if ($count == 1) {
+        $row = mysqli_fetch_assoc($result);
+        if (password_verify($password, $row['password'])) {
+            $_SESSION['email'] = $email;
+            header("location: home.php"); // Redirect to the home page after successful login
+        } else {
+            echo '<script>
+                alert("Incorrect password");
+                window.location.href = "index.php";
+            </script>';
+        }
+    } else {
+        echo '<script>
+            alert("Email not registered");
+            window.location.href = "index.php";
+        </script>';
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +43,13 @@
       <header>Login</header>
       <form action="" method="POST">
         <div class="field input">
-          <label for="username">Username</label>
-          <input type="text" name="username" id="username" required>
+          <label for="username">Email</label>
+          <input type="email" name="email" id="email" required autocomplete="off">
         </div>
 
         <div class="field input">
-          <label for="password">Password</label>
-          <input type="password " name="password" id="password" required>
+          <label for="username">Password</label>
+          <input type="password" name="password" id="password" required autocomplete="off">
         </div>
 
         <div class="field">

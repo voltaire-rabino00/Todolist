@@ -17,6 +17,13 @@
   <div class="container">
     <div class="box form-box">
       <header>Signup</header>
+      <?php
+         if(isset($error)){
+            foreach($error as $error){
+               echo '<span class="error-msg">'.$error.'</span>';
+            }
+         }
+      ?>
       <form action="regist.php" method="POST">
         <div class="field input">
           <label for="username">Userame</label>
@@ -40,12 +47,6 @@
 
         <div class="field">
           <input type="submit" class="btn" name="submit" value="Register" required>
-          <div class="popup" id="popup" onclick="openPopup()">
-            <img src="./img/404-tick.png" alt="check button">
-            <h2>Thank You</h2>
-            <p>Your Account has been created Succesfully!</p>
-            <button type="button" onclick="closePopup()">Ok</button>
-          </div>
         </div>
         <div class="links">
           Already have an account? <a href="index.php">Login</a>
@@ -53,22 +54,5 @@
       </form>
     </div>
   </div>
-  
-  
-  <script>
-
-let registrationSuccess = <?php echo isset($_SESSION['registration_success']) ? 'true' : 'false'; ?>;
-let popup = document.getElementById("popup");
-
-function openPopup() {
-    popup.classList.add("open-popup");
-}
-
-function closePopup() {
-    popup.classList.remove("open-popup");
-}
-
-
-  </script>
 </body>
 </html>
