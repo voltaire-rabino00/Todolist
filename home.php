@@ -33,7 +33,7 @@
     <div class="content">
     <h1 class="title">fresh <span>Coffee</span> in the <span>morning</span></h1>
     <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima ab magni nemo provident, nihil aperiam eius neque veritatis repellendus eveniet enim modi iure ad iusto unde quisquam! Quidem, alias eaque!</p>
-    <a href="#" class="btn">Get Started</a>
+    <a href="products.php" class="btn">Get Started</a>
     </div>
 
     <div class="image">
