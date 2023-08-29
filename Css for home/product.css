@@ -55,3 +55,33 @@ body{
 .container .products-container .product img:hover{
   transform: scale(.9);
 }
+.container .products-container .product h3{
+  padding: 5rem 0;
+  font-size: 2rem;
+  color: #444;
+}
+.container .products-container .product:hover h3{
+  color: #27ae60;
+}
+.container .products-container .product .price{
+  font-size: 2rem;
+  color: #444;
+}
+
+.products-preview{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  background: rgba(0, 0, 0,.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products-preview .preview{
+  display: none;
+  padding: 2rem;
+}
+.products-preview .preview.active{
+  display: inline-block;
+}

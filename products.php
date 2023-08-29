@@ -52,7 +52,121 @@
     <div class="price"> &#8369;100</div>
   </div>
  </div>
+</div>
+<div class="products-preview">
+  <div class="preview active" data-target="p-1">
+    <img src="./img/p1.png" alt="">
+    <h3>Small Pandesal</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <span>(250)</span>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, error?</p>
+    <div class="price">&#8369;100</div>
+    <div class="button">
+      <a href="#" class="buy">Buy Now</a>
+      <a href="#" class="cart">Add to Cart</a>
+    </div>
+  </div>
 
+  <div class="preview" data-target="p-2">
+    <img src="./img/p2.png" alt="">
+    <h3>Small Pandesal</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <span>(250)</span>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, error?</p>
+    <div class="price">&#8369;100</div>
+    <div class="button">
+      <a href="#" class="buy">Buy Now</a>
+      <a href="#" class="cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-3">
+    <img src="./img/p3.png" alt="">
+    <h3>Small Pandesal</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <span>(250)</span>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, error?</p>
+    <div class="price">&#8369;100</div>
+    <div class="button">
+      <a href="#" class="buy">Buy Now</a>
+      <a href="#" class="cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-4">
+    <img src="./img/p4.png" alt="">
+    <h3>Small Pandesal</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <span>(250)</span>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, error?</p>
+    <div class="price">&#8369;100</div>
+    <div class="button">
+      <a href="#" class="buy">Buy Now</a>
+      <a href="#" class="cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-5">
+    <img src="./img/p5.png" alt="">
+    <h3>Small Pandesal</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <span>(250)</span>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, error?</p>
+    <div class="price">&#8369;100</div>
+    <div class="button">
+      <a href="#" class="buy">Buy Now</a>
+      <a href="#" class="cart">Add to Cart</a>
+    </div>
+  </div>
+
+  <div class="preview" data-target="p-6">
+    <img src="./img/p6.png" alt="">
+    <h3>Small Pandesal</h3>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      <span>(250)</span>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, error?</p>
+    <div class="price">&#8369;100</div>
+    <div class="button">
+      <a href="#" class="buy">Buy Now</a>
+      <a href="#" class="cart">Add to Cart</a>
+    </div>
+  </div>
 
 </div>
 <script src="app.js"></script>
