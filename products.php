@@ -7,7 +7,7 @@
   <!-- Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <!-- Css Link -->
-  <link rel="stylesheet" href="./Css for home/product.css">
+  <link rel="stylesheet" href="./Css and js/product.css">
 </head>
 <body>
   
@@ -53,8 +53,11 @@
   </div>
  </div>
 </div>
+
+
 <div class="products-preview">
-  <div class="preview active" data-target="p-1">
+  <div class="preview" data-target="p-1">
+  <i class="fas fa-times"></i>
     <img src="./img/p1.png" alt="">
     <h3>Small Pandesal</h3>
     <div class="stars">
@@ -74,6 +77,7 @@
   </div>
 
   <div class="preview" data-target="p-2">
+  <i class="fas fa-times"></i>
     <img src="./img/p2.png" alt="">
     <h3>Small Pandesal</h3>
     <div class="stars">
@@ -93,6 +97,7 @@
   </div>
 
   <div class="preview" data-target="p-3">
+  <i class="fas fa-times"></i>
     <img src="./img/p3.png" alt="">
     <h3>Small Pandesal</h3>
     <div class="stars">
@@ -112,6 +117,7 @@
   </div>
 
   <div class="preview" data-target="p-4">
+  <i class="fas fa-times"></i>
     <img src="./img/p4.png" alt="">
     <h3>Small Pandesal</h3>
     <div class="stars">
@@ -131,6 +137,7 @@
   </div>
 
   <div class="preview" data-target="p-5">
+  <i class="fas fa-times"></i>
     <img src="./img/p5.png" alt="">
     <h3>Small Pandesal</h3>
     <div class="stars">
@@ -150,6 +157,7 @@
   </div>
 
   <div class="preview" data-target="p-6">
+  <i class="fas fa-times"></i>
     <img src="./img/p6.png" alt="">
     <h3>Small Pandesal</h3>
     <div class="stars">
@@ -169,6 +177,6 @@
   </div>
 
 </div>
-<script src="app.js"></script>
+<script src="./Css and js/main.js"></script>
 </body>
 </html>
