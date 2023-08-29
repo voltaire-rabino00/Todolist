@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="./Css and js/product.css">
 </head>
 <body>
+
+<header class="header">
+  <a href="#" class="logo">
+    <img src="./img/logo.png"  alt="">
+  </a>
+</header>
   
 <div class="container">
   <h3 class="title">Snacks</h3>

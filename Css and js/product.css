@@ -16,7 +16,10 @@ html{
   overflow-x: hidden;
 }
 body{
-  background: #2a201c;
+  background: #fff;
+}
+.header{
+  background-color: #2a201c;
 }
 .container{
   max-width: 1200px;
@@ -25,7 +28,7 @@ body{
 }
 .container .title{
   font-size: 3.5rem;
-  color: #fff;
+  color: black;
   margin-bottom: 3rem;
   text-transform: uppercase;
   text-align: center;
