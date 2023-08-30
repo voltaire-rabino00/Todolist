@@ -16,7 +16,7 @@
     <img src="./img/logo.png"  alt="">
   </a>
 </header>
-  
+
 <div class="container">
   <h3 class="title">Snacks</h3>
 
@@ -181,8 +181,21 @@
       <a href="#" class="cart">Add to Cart</a>
     </div>
   </div>
-
 </div>
+
+<div class="payment-modal">
+  <div class="payment-content">
+    <i class="fas fa-times"></i>
+    <h2>Payment Details</h2>
+    <label for="cardNumber">Card Number:</label>
+    <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456">
+    <label for="expiry">Expiry Date:</label>
+    <input type="text" id="expiry" placeholder="MM/YY">
+    <button id="payButton">Pay</button>
+  </div>
+</div>
+
+<script src="./Css and js/payment.js"></script>
 <script src="./Css and js/main.js"></script>
 </body>
 </html>
