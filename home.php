@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
-  <link rel="stylesheet" href="./Css and js/home.css">
+  <link rel="stylesheet" href="./css file/home.css">
 <body>
   <!-- Header Section -->
 <header class="header">
@@ -47,6 +47,6 @@
 
 
   <!-- js file -->
-  <script src="app.js"></script>
+  <script src="./js file/app.js"></script>
 </body>
 </html>

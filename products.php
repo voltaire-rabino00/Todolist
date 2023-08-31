@@ -7,7 +7,7 @@
   <!-- Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <!-- Css Link -->
-  <link rel="stylesheet" href="./Css and js/product.css">
+  <link rel="stylesheet" href="./css file/product.css">
 </head>
 <body>
 
@@ -183,19 +183,86 @@
   </div>
 </div>
 
-<div class="payment-modal">
-  <div class="payment-content">
-    <i class="fas fa-times"></i>
-    <h2>Payment Details</h2>
-    <label for="cardNumber">Card Number:</label>
-    <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456">
-    <label for="expiry">Expiry Date:</label>
-    <input type="text" id="expiry" placeholder="MM/YY">
-    <button id="payButton">Pay</button>
+<div class="containers">
+  
+ <form action="">
+  
+ <div class="row">
+    <div class="col">
+      <h3 class="title">Billing Adress</h3>
+
+      <div class="inputbox">
+        <span>Name</span>
+        <input type="text" placeholder="John Doe">
+      </div>
+
+      <div class="inputbox">
+        <span>Email</span>
+        <input type="email" placeholder="example@example.com">
+      </div>
+      
+      <div class="inputbox">
+        <span>Adress</span>
+        <input type="text" placeholder="Blk. - Street - Baranggay">
+      </div>
+
+      <div class="inputbox">
+        <span>City</span>
+        <input type="text" placeholder="City">
+      </div>
+
+      <div class="flex">
+      <div class="inputbox">
+        <span>State</span>
+        <input type="number" placeholder="Country">
+      </div>
+      <div class="inputbox">
+        <span>Zip Code</span>
+        <input type="text" placeholder="0812">
+      </div>
+     </div>
+    </div>
+    <div class="col">
+      <h3 class="title">Payment</h3>
+      <i class="fas fa-times"></i>
+      <div class="inputbox">
+        <span>Cards Accepted</span>
+        <img src="./img/card_img.png" alt="card image">
+      </div>
+
+      <div class="inputbox">
+        <span>Full Name</span>
+        <input type="text" placeholder="John Doe">
+      </div>
+      
+      <div class="inputbox">
+        <span>Credit Card number</span>
+        <input type="number" placeholder="0000-1111-2222-3333">
+      </div>
+
+      <div class="inputbox">
+        <span>Exp Month</span>
+        <input type="text" placeholder="January">
+      </div>
+
+      <div class="flex">
+      <div class="inputbox">
+        <span>Exp Year</span>
+        <input type="number" placeholder="2025">
+      </div>
+      <div class="inputbox">
+        <span>CVV</span>
+        <input type="text" placeholder="1234">
+      </div>
+     </div>
+    </div>
   </div>
+  
+  <input type="submit" value="proceed to checkout" class="submit-btn">
+ </form>
 </div>
 
-<script src="./Css and js/payment.js"></script>
-<script src="./Css and js/main.js"></script>
+<script src="./js file/payment.js"></script>
+<script src="./js file/main.js"></script>
 </body>
 </html>
